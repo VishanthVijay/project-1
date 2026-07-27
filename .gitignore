@@ -1,6 +1,23 @@
-.venv/
-backend/.venv/
+# Python
 __pycache__/
-*.pyc
-*.db
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.egg
+
+# Environment
 .env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# Node / Frontend
+node_modules/
+dist/
+.DS_Store
+
+# Alembic
+migrations/versions/__pycache__/
